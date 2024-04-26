@@ -1,0 +1,19 @@
+# Template
+<BaseWindow>:
+    main_layout: main_layout
+    nav_layout: nav_layout
+
+    RelativeLayout:
+        BoxLayout:
+            id: nav_layout
+            orientation: "vertical"
+            pos_hint: {"x": 0, "top": 1}
+            size_hint: 0.1, 0.1
+            spacing: 15
+            padding: 10
+
+        BoxLayout:
+            id: main_layout
+            orientation: "vertical"
+            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+            size_hint: 0.5, 0.7
